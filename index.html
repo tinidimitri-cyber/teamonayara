@@ -11,6 +11,7 @@ body {
   font-family: 'Georgia', serif;
   background-color: #7a1f3d;
   color: #ffffff;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .container {
@@ -71,6 +72,18 @@ h1 {
   font-size: 14px;
   opacity: 0.75;
 }
+
+/* FADE-IN */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 </style>
 </head>
 
@@ -82,13 +95,13 @@ h1 {
 <div class="subtitle">Uma história escrita com amor</div>
 
 <div class="section">
-  <img src="IMG_1554.jpg">
+  <img src="IMG_1554.jpg" alt="Nós dois">
   <p class="date">18 de dezembro de 2024</p>
   <p>Esse dia marcou nossa história.</p>
 </div>
 
 <div class="section">
-  <img src="IMG_1521.jpg">
+  <img src="IMG_1521.jpg" alt="Nossa história">
   <h2>Nossa história</h2>
   <p>
     Bom Nayara, eu sei que você vai ficar brava por te chamar assim,
@@ -124,7 +137,7 @@ h1 {
     Você sabe o quanto você foi boa pra mim
     e para o nosso relacionamento.
     <br><br>
-    E por final…
+    E por fim…
     “você aceita se casar comigo?”
     <br><br>
     Tô brincando 😅  
@@ -140,13 +153,13 @@ h1 {
 </div>
 
 <div class="section">
-  <img src="IMG_1553.jpg">
+  <img src="IMG_1553.jpg" alt="Uma data especial">
   <p class="date">29 de maio</p>
   <p>Uma data que mora no meu coração.</p>
 </div>
 
 <div class="section">
-  <img src="IMG_1521.jpg">
+  <img src="IMG_1521.jpg" alt="Amor">
   <p>Você é tudo aquilo que eu sempre quis viver.</p>
 </div>
 
